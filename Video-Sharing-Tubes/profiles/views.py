@@ -20,7 +20,7 @@ class ProfileView(View):
 
 class UpdateProfile(UpdateView):
     model = Profile
-    fields = ['name', 'location', 'image']
+    fields = ['name', 'image']
     template_name = 'profiles/update_profile.html'
 
     def form_valid(self, form):
