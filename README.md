@@ -22,3 +22,7 @@ install crispyforms
 install allauth
 
 `pip install django-allauth`
+
+
+## Reference
+https://github.com/legionscript/Video-Sharing/tree/tutorial6
