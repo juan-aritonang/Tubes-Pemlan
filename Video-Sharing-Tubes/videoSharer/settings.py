@@ -152,3 +152,6 @@ LOGIN_REDIRECT_URL = 'index'
 
 # Additions to Sign Up Form
 ACCOUNT_SIGNUP_FORM_CLASS = 'profiles.forms.ProfileForm'
+
+# Adding IP address that can be used
+ALLOWED_HOSTS = ['10.5.99.76']
